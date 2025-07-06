@@ -2,6 +2,10 @@
 
 This script provides a Python interface to interact with OpenAI's GPT-4 models, specifically designed for generating and processing text content in a structured manner.
 
+Currently it takes extracted text from a lecture slide as input and generates two key outputs:
+1. Detailed overview / cheat sheet of the lecture, for quick review or study.
+2. A high-level transcript that provides an overview of the lecture (intended to be used in TTS).
+
 ## Features
 
 *   Connects to OpenAI's API using environment variables for secure API key management
